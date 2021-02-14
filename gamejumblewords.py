@@ -6,7 +6,7 @@ def play():
     p2s=0
     turn=0
     while(1):
-        picked_word=choose()
+        picked_word=choose() i can edit 
         ques=jumble(picked_word)
         print("the jumbled word for you is ",ques)
         if (turn%2==0):
